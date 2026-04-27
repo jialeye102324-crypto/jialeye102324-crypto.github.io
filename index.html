@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>叶家乐 — AI 数据工程师</title>
+  <meta name="description" content="叶家乐的个人网站 — AI 数据标注、大模型调优、Vibe Coding 实践者">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====== Navigation ====== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">JL<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#life">生活</a></li>
+        <li><a href="#projects">项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <button class="nav__mobile-toggle" id="menuToggle" aria-label="菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu__links">
+      <li><a href="#about">关于</a></li>
+      <li><a href="#life">生活</a></li>
+      <li><a href="#projects">项目</a></li>
+      <li><a href="#contact">联系</a></li>
+    </ul>
+  </div>
+
+  <!-- ====== Hero (Dark) ====== -->
+  <section class="section section--dark hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__gradient hero__gradient--1"></div>
+      <div class="hero__gradient hero__gradient--2"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__greeting">// Hello World — 欢迎来到我的数字空间</p>
+      <h1 class="hero__title" id="heroTitle">叶家乐</h1>
+      <p class="hero__subtitle">白天把乱糟糟的业务规则翻译给大模型听，晚上把大模型胡说八道的幻觉抓回来改作业——三年经验，专治模型"嘴瓢"与数据"摆烂"。</p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">查看项目 →</a>
+        <a href="#contact" class="btn btn--outline">联系我</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== About (Light) ====== -->
+  <section class="section section--light" id="about">
+    <div class="section__container">
+      <p class="section__eyebrow reveal">about</p>
+      <h2 class="section__title reveal reveal-delay-1">
+        AI 数据，<br>是让模型"说人话"的手艺。
+      </h2>
+      <div class="about__grid">
+        <div class="about__text reveal reveal-delay-2">
+          <p>
+            从事 AI 数据标注与大模型调优三年，我专注于 RAG 知识库建设、SFT 训练数据生产、模型评测体系搭建等核心环节。
+          </p>
+          <p>
+            我相信好的数据是大模型的"教材"，而数据工程师就是那个最较真的"教材编辑"——每一条数据的质量，决定了模型能不能真正理解业务、输出可用的结果。
+          </p>
+        </div>
+        <div class="about__tags">
+          <div class="about__tag reveal reveal-delay-2">
+            <div class="about__tag-icon">⚡</div>
+            <div class="about__tag-title">Vibe Coding</div>
+            <div class="about__tag-desc">用 AI 辅助编程，快速构建原型和工具链，享受"对话即开发"的创造流</div>
+          </div>
+          <div class="about__tag reveal reveal-delay-3">
+            <div class="about__tag-icon">🔭</div>
+            <div class="about__tag-title">AI 前沿探索</div>
+            <div class="about__tag-desc">持续跟踪大模型、Agent、多模态的最新进展，做 AI 前沿信息的忠实用户</div>
+          </div>
+          <div class="about__tag reveal reveal-delay-4">
+            <div class="about__tag-icon">📐</div>
+            <div class="about__tag-title">持续学习</div>
+            <div class="about__tag-desc">保持输入与输出的平衡，将行业实践转化为可复用的方法论</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Life (Dark) ====== -->
+  <section class="section section--dark" id="life">
+    <div class="section__container">
+      <p class="section__eyebrow reveal">life</p>
+      <h2 class="section__title reveal reveal-delay-1">
+        工作之外。
+      </h2>
+      <p class="section__desc reveal reveal-delay-2">
+        代码写累了，也要记得抬头看看世界。这里是我的一些生活碎片。
+      </p>
+      <div class="life__grid">
+        <div class="life__card reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=450&fit=crop" alt="探索自然">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">山野与远方</div>
+              <div class="life__card-tag">#户外探索</div>
+            </div>
+          </div>
+        </div>
+        <div class="life__card reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=450&fit=crop" alt="音乐">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">旋律与节拍</div>
+              <div class="life__card-tag">#音乐</div>
+            </div>
+          </div>
+        </div>
+        <div class="life__card reveal reveal-delay-3">
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&h=450&fit=crop" alt="阅读">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">书页之间</div>
+              <div class="life__card-tag">#阅读</div>
+            </div>
+          </div>
+        </div>
+        <div class="life__card reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=450&fit=crop" alt="编程">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">深夜码字</div>
+              <div class="life__card-tag">#Vibe Coding</div>
+            </div>
+          </div>
+        </div>
+        <div class="life__card reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=450&fit=crop" alt="美食">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">人间烟火</div>
+              <div class="life__card-tag">#美食</div>
+            </div>
+          </div>
+        </div>
+        <div class="life__card reveal reveal-delay-3">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=450&fit=crop" alt="科技">
+          <div class="life__card-overlay">
+            <div>
+              <div class="life__card-title">折腾新玩意</div>
+              <div class="life__card-tag">#科技数码</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects (Light) ====== -->
+  <section class="section section--light" id="projects">
+    <div class="section__container">
+      <p class="section__eyebrow reveal">projects</p>
+      <h2 class="section__title reveal reveal-delay-1">
+        用数据驱动模型进化。
+      </h2>
+      <p class="section__desc reveal reveal-delay-2" style="margin-bottom: 0;">
+        以下是我主导或深度参与的 AI 数据项目，每一个都是从 0 到 1 的实战。
+      </p>
+      <div class="projects__grid">
+
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card__number">01</div>
+          <h3 class="project-card__title">RAG 商品知识库检索系统</h3>
+          <p class="project-card__desc">
+            面向 30 万 SKU 海外货盘，主导标注规范与抽检闭环建设，1 个月交付 10000 条高质量数据，质检准确率提升至 97%，彻底替代人工 Excel 查询。
+          </p>
+          <div class="project-card__tags">
+            <span class="project-card__tag">RAG</span>
+            <span class="project-card__tag">数据标注</span>
+            <span class="project-card__tag">知识库</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card__number">02</div>
+          <h3 class="project-card__title">跨境电商文案 SFT 微调数据</h3>
+          <p class="project-card__desc">
+            搭建覆盖标题关键词、卖点前置、场景词与违禁/侵权词的 SFT 规则体系，协同 5 人团队产出 8000 条训练数据，让商品文案生成模型稳定贴合平台合规与业务口径。
+          </p>
+          <div class="project-card__tags">
+            <span class="project-card__tag">SFT</span>
+            <span class="project-card__tag">微调</span>
+            <span class="project-card__tag">跨境电商</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card__number">03</div>
+          <h3 class="project-card__title">模型版本迭代评测体系</h3>
+          <p class="project-card__desc">
+            设计 Dify 工作流 + 人工评分的双轨评测机制，单轮 500 条样本 1-2 天完成，推动 RAG 检索准确率从 75% 提升至 95%+、场景词适配度由 1.2 分提升至 1.8 分。
+          </p>
+          <div class="project-card__tags">
+            <span class="project-card__tag">Dify</span>
+            <span class="project-card__tag">评测</span>
+            <span class="project-card__tag">质量迭代</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-card__number">04</div>
+          <h3 class="project-card__title">多模态商品图片智能升级</h3>
+          <p class="project-card__desc">
+            针对 30W+ SKU 图片低清、杂乱、缺图等问题，制定分类目图片合格标准与 Prompt 模板，打通超分/抠图/文生图链路接入 ERP，实现图片处理自动化率 90%+、人工复审控制在 10% 以内。
+          </p>
+          <div class="project-card__tags">
+            <span class="project-card__tag">多模态</span>
+            <span class="project-card__tag">图像处理</span>
+            <span class="project-card__tag">自动化</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact (Dark) ====== -->
+  <section class="section section--dark" id="contact">
+    <div class="section__container">
+      <div class="contact__inner">
+        <p class="section__eyebrow reveal">contact</p>
+        <h2 class="section__title reveal reveal-delay-1">
+          聊聊？
+        </h2>
+        <p class="section__desc reveal reveal-delay-2" style="margin: 0 auto;">
+          如果你对 AI 数据、大模型应用、或者 Vibe Coding 感兴趣，欢迎随时联系我。
+        </p>
+        <div class="contact__links reveal reveal-delay-3">
+          <a href="mailto:jialeye102324@gmail.com" class="contact__link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            jialeye102324@gmail.com
+          </a>
+          <a href="tel:19986547223" class="contact__link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            199-8654-7223
+          </a>
+          <a href="https://github.com/jialeye102324-crypto" target="_blank" rel="noopener" class="contact__link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <p class="footer__text">
+      © 2026 叶家乐 · Built with <a href="https://github.com/jialeye102324-crypto" target="_blank">Vibe Coding</a> ⚡
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
