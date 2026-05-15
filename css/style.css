@@ -825,6 +825,14 @@ img {
   color: var(--c-light-bg);
 }
 
+/* Project cards — white bg, so accent must be dark */
+.project-card__number {
+  color: var(--c-light-text-secondary);
+}
+.project-card:hover {
+  border-color: var(--c-light-border);
+}
+
 @media (max-width: 480px) {
   .section {
     padding: var(--space-xl) var(--space-md);
