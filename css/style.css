@@ -445,7 +445,7 @@ img {
 
 .btn--primary {
   background: var(--c-accent);
-  color: #fff;
+  color: #0a0a0a;
 }
 
 .btn--primary:hover {
