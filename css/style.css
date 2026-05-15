@@ -22,11 +22,11 @@
   --c-light-text-primary: #1a1a1a;
   --c-light-text-secondary: #6b6b6b;
 
-  /* Accent */
-  --c-accent: #6366f1;
-  --c-accent-rgb: 99, 102, 241;
-  --c-accent-hover: #818cf8;
-  --c-accent-glow: rgba(99, 102, 241, 0.15);
+  /* Accent — Monochrome */
+  --c-accent: #ffffff;
+  --c-accent-rgb: 255, 255, 255;
+  --c-accent-hover: #cccccc;
+  --c-accent-glow: rgba(255, 255, 255, 0.06);
 
   /* Typography */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -254,6 +254,10 @@ img {
   margin-bottom: var(--space-md);
 }
 
+.section--light .section__eyebrow {
+  color: var(--c-light-text-secondary);
+}
+
 .section__title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 600;
@@ -313,7 +317,7 @@ img {
 }
 
 .hero__gradient--2 {
-  background: #a855f7;
+  background: rgba(255, 255, 255, 0.5);
   bottom: 20%;
   right: 25%;
   animation-delay: -4s;
@@ -802,6 +806,23 @@ img {
     flex-direction: column;
     align-items: center;
   }
+}
+
+/* --- Monochrome: Light Section Overrides --- */
+.section--light .btn--primary {
+  background: var(--c-light-text-primary);
+  color: var(--c-light-bg);
+}
+.section--light .btn--primary:hover {
+  background: var(--c-light-text-secondary);
+}
+.section--light .btn--outline {
+  border-color: var(--c-light-text-primary);
+  color: var(--c-light-text-primary);
+}
+.section--light .btn--outline:hover {
+  background: var(--c-light-text-primary);
+  color: var(--c-light-bg);
 }
 
 @media (max-width: 480px) {
